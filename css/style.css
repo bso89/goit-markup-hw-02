@@ -1,0 +1,25 @@
+:root
+--primery-text-color: #000000
+--secondary-ext-color: #ffffff
+
+
+body{
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 14;
+}
+
+.item-navi{
+    list-style: none;
+    color: #000000;
+}
+
+.text-navi{
+    text-decoration: none;
+    color: var(--primery-text-color);
+}
+
+.item-navi:hover{
+    color: #0000ff;
+    background-color: bisque;
+}
